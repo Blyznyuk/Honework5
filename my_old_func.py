@@ -1,7 +1,3 @@
-a = int(input("Введите сторону "))
-b = int(input("Введите сторону "))
-c = int(input("Введите сторону "))
-
 
 def treygolnick(a, b, c):
     if a < b+c and b < a+c and c < a+b:
@@ -39,5 +35,4 @@ def year():
                 y = False
             return y
 
-print(treygolnick(a, b, c))
 
